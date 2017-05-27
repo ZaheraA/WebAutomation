@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Costco" parallel="tests">
+
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="cloudEnvName" value="browserstack"/>
+    <parameter name="os" value="Windows"/>
+    <parameter name="os_version" value="10"/>
+    <parameter name="browserName" value="firefox"/>
+    <parameter name="browserVersion" value="53.0"/>
+    <parameter name="url" value="https://www.costco.com/"/>
+
+    <test name = "Costco Home">
+        <classes>
+            <class name="appliances.Appliances"/>
+            <class name="appliances.Appliances_Washers"/>
+            <class name="computers.Computers"/>
+            <class name="computers.Computers"/>
+            <class name="electronics.Electronics"/>
+            <class name="electronics.Electronics_Cameras"/>
+            <class name="furniture.Furniture"/>
+            <class name="furniture.Furniture_DiningRoom"/>
+            <class name="furniture.Furniture_LivingRoom"/>
+
+        </classes>
+    </test>
+
+</suite>

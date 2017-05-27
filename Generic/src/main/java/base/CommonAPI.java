@@ -100,16 +100,16 @@ public class CommonAPI {
     }
 
     public static WebDriver driver = null;
-    private String saucelabs_username = "mrahman";
-    private String browserstack_username = "syedhossain1";
-    private String saucelabs_accesskey = "ssh key";
-    private String browserstack_accesskey = "cMx99y4ir3xZQjck18Dq";
+    private String saucelabs_username = "zaheera";
+    private String browserstack_username = "zahraa1";
+    private String saucelabs_accesskey = "457a372c-4c3a-4eb5-9b5d-f9091cce7f28";
+    private String browserstack_accesskey = "cyyxUUDMix7UUQZCRZ3v";
 
     @Parameters({"useCloudEnv","cloudEnvName","os","os_version","browserName","browserVersion","url"})
     @BeforeMethod
-    public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false")String cloudEnvName,
+    public void setUp(@Optional("false") boolean useCloudEnv, @Optional("browserstack")String cloudEnvName,
             @Optional("Windows") String os,@Optional("10") String os_version, @Optional("firefox") String browserName, @Optional("34")
-            String browserVersion, @Optional("http://www.amazon.com") String url)throws IOException {
+            String browserVersion, @Optional("https://www.costco.com/") String url)throws IOException {
         if(useCloudEnv==true){
             if(cloudEnvName.equalsIgnoreCase("browserstack")) {
                 getCloudDriver(cloudEnvName,browserstack_username,browserstack_accesskey,os,os_version, browserName, browserVersion);
@@ -129,7 +129,7 @@ public class CommonAPI {
         if(browserName.equalsIgnoreCase("chrome")){
             if(OS.equalsIgnoreCase("OS X")){
                 System.setProperty("webdriver.chrome.driver", "../Generic/driver/chromedriver");
-            }else if(OS.equalsIgnoreCase("Win")){
+            }else if(OS.equalsIgnoreCase("Windows")){
                 System.setProperty("webdriver.chrome.driver", "../Generic/driver/chromedriver.exe");
             }
             driver = new ChromeDriver();
