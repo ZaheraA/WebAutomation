@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="136.863" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="157.97" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.1.2"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -61,8 +61,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="search" classname="searchitems.SearchItems" time="28.299"/>
-  <testcase name="searchMenu" classname="searchitems.DropDownMenuSearch" time="18.968"/>
-  <testcase name="amazonTitle" classname="home.TestAmazonHome" time="0.41"/>
-  <testcase name="serach" classname="home.SearchItems" time="0.815"/>
+  <testcase name="search" classname="searchitems.SearchItems" time="27.492"/>
+  <testcase name="searchMenu" classname="searchitems.DropDownMenuSearch" time="18.039"/>
+  <testcase name="amazonTitle" classname="home.TestAmazonHome" time="0.142"/>
+  <testcase name="serach" classname="home.SearchItems" time="0.566"/>
 </testsuite>

@@ -341,23 +341,23 @@
       <![CDATA[HomePage: click On Furniture Selection]]>
     </line>
   </reporter-output>
-  <suite name="Amazon" duration-ms="275963" started-at="2017-05-27T15:45:06Z" finished-at="2017-05-27T15:49:42Z">
+  <suite name="Amazon" duration-ms="286336" started-at="2017-05-28T05:02:34Z" finished-at="2017-05-28T05:07:21Z">
     <groups>
     </groups>
-    <test name="Costco Home" duration-ms="275963" started-at="2017-05-27T15:45:06Z" finished-at="2017-05-27T15:49:42Z">
+    <test name="Costco Home" duration-ms="286336" started-at="2017-05-28T05:02:34Z" finished-at="2017-05-28T05:07:21Z">
       <class name="appliances.Appliances">
-        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:appliances.Appliances@32e6e9c3]" name="extentSetup" is-config="true" duration-ms="1" started-at="2017-05-27T11:45:06Z" finished-at="2017-05-27T11:45:06Z">
+        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:appliances.Appliances@3c09711b]" name="extentSetup" is-config="true" duration-ms="0" started-at="2017-05-28T01:02:34Z" finished-at="2017-05-28T01:02:34Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@442675e1]]>
+                <![CDATA[org.testng.TestRunner@3f200884]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extentSetup -->
-        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:appliances.Appliances@32e6e9c3]" name="setUp" is-config="true" duration-ms="7199" started-at="2017-05-27T11:45:06Z" finished-at="2017-05-27T11:45:13Z">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:appliances.Appliances@3c09711b]" name="setUp" is-config="true" duration-ms="9184" started-at="2017-05-28T01:02:34Z" finished-at="2017-05-28T01:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -398,18 +398,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:appliances.Appliances@32e6e9c3]" name="startExtent" is-config="true" duration-ms="0" started-at="2017-05-27T11:45:13Z" finished-at="2017-05-27T11:45:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void appliances.Appliances.appliancesView()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method status="PASS" signature="appliancesView()[pri:0, instance:appliances.Appliances@32e6e9c3]" name="appliancesView" duration-ms="3876" started-at="2017-05-27T11:45:13Z" finished-at="2017-05-27T11:45:17Z">
+        <test-method status="PASS" signature="appliancesView()[pri:0, instance:appliances.Appliances@3c09711b]" name="appliancesView" duration-ms="6922" started-at="2017-05-28T01:02:43Z" finished-at="2017-05-28T01:02:50Z">
           <reporter-output>
             <line>
               <![CDATA[Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]>
@@ -434,28 +423,39 @@
             </line>
           </reporter-output>
         </test-method> <!-- appliancesView -->
-        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:appliances.Appliances@32e6e9c3]" name="afterEachTestMethod" is-config="true" duration-ms="13906" started-at="2017-05-27T11:45:17Z" finished-at="2017-05-27T11:45:31Z">
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:appliances.Appliances@3c09711b]" name="startExtent" is-config="true" duration-ms="0" started-at="2017-05-28T01:02:43Z" finished-at="2017-05-28T01:02:43Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=appliancesView status=SUCCESS method=Appliances.appliancesView()[pri:0, instance:appliances.Appliances@32e6e9c3] output=Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]]>
+                <![CDATA[public void appliances.Appliances.appliancesView()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:appliances.Appliances@3c09711b]" name="afterEachTestMethod" is-config="true" duration-ms="12699" started-at="2017-05-28T01:02:50Z" finished-at="2017-05-28T01:03:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=appliancesView status=SUCCESS method=Appliances.appliancesView()[pri:0, instance:appliances.Appliances@3c09711b] output=Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:appliances.Appliances@32e6e9c3]" name="cleanUp" is-config="true" duration-ms="0" started-at="2017-05-27T11:45:31Z" finished-at="2017-05-27T11:45:31Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:appliances.Appliances@3c09711b]" name="cleanUp" is-config="true" duration-ms="0" started-at="2017-05-28T01:03:03Z" finished-at="2017-05-28T01:03:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method status="PASS" signature="generateReport()[pri:0, instance:appliances.Appliances@32e6e9c3]" name="generateReport" is-config="true" duration-ms="0" started-at="2017-05-27T11:49:42Z" finished-at="2017-05-27T11:49:42Z">
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:appliances.Appliances@3c09711b]" name="generateReport" is-config="true" duration-ms="1" started-at="2017-05-28T01:07:21Z" finished-at="2017-05-28T01:07:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
       </class> <!-- appliances.Appliances -->
       <class name="electronics.Electronics">
-        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:electronics.Electronics@2669b199]" name="setUp" is-config="true" duration-ms="80675" started-at="2017-05-27T11:46:19Z" finished-at="2017-05-27T11:47:39Z">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:electronics.Electronics@4590c9c3]" name="setUp" is-config="true" duration-ms="11480" started-at="2017-05-28T01:04:01Z" finished-at="2017-05-28T01:04:12Z">
           <params>
             <param index="0">
               <value>
@@ -496,7 +496,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:electronics.Electronics@2669b199]" name="startExtent" is-config="true" duration-ms="0" started-at="2017-05-27T11:47:39Z" finished-at="2017-05-27T11:47:39Z">
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:electronics.Electronics@4590c9c3]" name="startExtent" is-config="true" duration-ms="0" started-at="2017-05-28T01:04:12Z" finished-at="2017-05-28T01:04:12Z">
           <params>
             <param index="0">
               <value>
@@ -507,7 +507,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method status="PASS" signature="electronicsView()[pri:0, instance:electronics.Electronics@2669b199]" name="electronicsView" duration-ms="3461" started-at="2017-05-27T11:47:39Z" finished-at="2017-05-27T11:47:43Z">
+        <test-method status="PASS" signature="electronicsView()[pri:0, instance:electronics.Electronics@4590c9c3]" name="electronicsView" duration-ms="6783" started-at="2017-05-28T01:04:12Z" finished-at="2017-05-28T01:04:19Z">
           <reporter-output>
             <line>
               <![CDATA[Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]>
@@ -532,24 +532,24 @@
             </line>
           </reporter-output>
         </test-method> <!-- electronicsView -->
-        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:electronics.Electronics@2669b199]" name="afterEachTestMethod" is-config="true" duration-ms="14164" started-at="2017-05-27T11:47:43Z" finished-at="2017-05-27T11:47:57Z">
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:electronics.Electronics@4590c9c3]" name="afterEachTestMethod" is-config="true" duration-ms="12737" started-at="2017-05-28T01:04:19Z" finished-at="2017-05-28T01:04:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=electronicsView status=SUCCESS method=Electronics.electronicsView()[pri:0, instance:electronics.Electronics@2669b199] output=Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]]>
+                <![CDATA[[TestResult name=electronicsView status=SUCCESS method=Electronics.electronicsView()[pri:0, instance:electronics.Electronics@4590c9c3] output=Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:electronics.Electronics@2669b199]" name="cleanUp" is-config="true" duration-ms="1" started-at="2017-05-27T11:47:57Z" finished-at="2017-05-27T11:47:57Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:electronics.Electronics@4590c9c3]" name="cleanUp" is-config="true" duration-ms="0" started-at="2017-05-28T01:04:32Z" finished-at="2017-05-28T01:04:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
       </class> <!-- electronics.Electronics -->
       <class name="furniture.Furniture_LivingRoom">
-        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:furniture.Furniture_LivingRoom@6ea12c19]" name="setUp" is-config="true" duration-ms="7015" started-at="2017-05-27T11:49:14Z" finished-at="2017-05-27T11:49:21Z">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:furniture.Furniture_LivingRoom@2669b199]" name="setUp" is-config="true" duration-ms="6974" started-at="2017-05-28T01:06:58Z" finished-at="2017-05-28T01:07:05Z">
           <params>
             <param index="0">
               <value>
@@ -590,7 +590,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:furniture.Furniture_LivingRoom@6ea12c19]" name="startExtent" is-config="true" duration-ms="1" started-at="2017-05-27T11:49:21Z" finished-at="2017-05-27T11:49:21Z">
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:furniture.Furniture_LivingRoom@2669b199]" name="startExtent" is-config="true" duration-ms="1" started-at="2017-05-28T01:07:05Z" finished-at="2017-05-28T01:07:05Z">
           <params>
             <param index="0">
               <value>
@@ -601,7 +601,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method status="PASS" signature="LivingRoom()[pri:0, instance:furniture.Furniture_LivingRoom@6ea12c19]" name="LivingRoom" duration-ms="5336" started-at="2017-05-27T11:49:21Z" finished-at="2017-05-27T11:49:26Z">
+        <test-method status="PASS" signature="LivingRoom()[pri:0, instance:furniture.Furniture_LivingRoom@2669b199]" name="LivingRoom" duration-ms="5497" started-at="2017-05-28T01:07:05Z" finished-at="2017-05-28T01:07:11Z">
           <reporter-output>
             <line>
               <![CDATA[Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]>
@@ -626,24 +626,24 @@
             </line>
           </reporter-output>
         </test-method> <!-- LivingRoom -->
-        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:furniture.Furniture_LivingRoom@6ea12c19]" name="afterEachTestMethod" is-config="true" duration-ms="15190" started-at="2017-05-27T11:49:26Z" finished-at="2017-05-27T11:49:42Z">
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:furniture.Furniture_LivingRoom@2669b199]" name="afterEachTestMethod" is-config="true" duration-ms="9915" started-at="2017-05-28T01:07:11Z" finished-at="2017-05-28T01:07:21Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=LivingRoom status=SUCCESS method=Furniture_LivingRoom.LivingRoom()[pri:0, instance:furniture.Furniture_LivingRoom@6ea12c19] output=Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]]>
+                <![CDATA[[TestResult name=LivingRoom status=SUCCESS method=Furniture_LivingRoom.LivingRoom()[pri:0, instance:furniture.Furniture_LivingRoom@2669b199] output=Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:furniture.Furniture_LivingRoom@6ea12c19]" name="cleanUp" is-config="true" duration-ms="1" started-at="2017-05-27T11:49:42Z" finished-at="2017-05-27T11:49:42Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:furniture.Furniture_LivingRoom@2669b199]" name="cleanUp" is-config="true" duration-ms="1" started-at="2017-05-28T01:07:21Z" finished-at="2017-05-28T01:07:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
       </class> <!-- furniture.Furniture_LivingRoom -->
       <class name="furniture.Furniture">
-        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:furniture.Furniture@458ad742]" name="setUp" is-config="true" duration-ms="8421" started-at="2017-05-27T11:48:21Z" finished-at="2017-05-27T11:48:29Z">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:furniture.Furniture@5056dfcb]" name="setUp" is-config="true" duration-ms="6912" started-at="2017-05-28T01:04:57Z" finished-at="2017-05-28T01:05:04Z">
           <params>
             <param index="0">
               <value>
@@ -684,7 +684,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="furnitureView()[pri:0, instance:furniture.Furniture@458ad742]" name="furnitureView" duration-ms="6056" started-at="2017-05-27T11:48:29Z" finished-at="2017-05-27T11:48:35Z">
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:furniture.Furniture@5056dfcb]" name="startExtent" is-config="true" duration-ms="0" started-at="2017-05-28T01:05:04Z" finished-at="2017-05-28T01:05:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void furniture.Furniture.furnitureView()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="furnitureView()[pri:0, instance:furniture.Furniture@5056dfcb]" name="furnitureView" duration-ms="4475" started-at="2017-05-28T01:05:04Z" finished-at="2017-05-28T01:05:09Z">
           <reporter-output>
             <line>
               <![CDATA[Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]>
@@ -709,129 +720,24 @@
             </line>
           </reporter-output>
         </test-method> <!-- furnitureView -->
-        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:furniture.Furniture@458ad742]" name="startExtent" is-config="true" duration-ms="0" started-at="2017-05-27T11:48:29Z" finished-at="2017-05-27T11:48:29Z">
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:furniture.Furniture@5056dfcb]" name="afterEachTestMethod" is-config="true" duration-ms="11560" started-at="2017-05-28T01:05:09Z" finished-at="2017-05-28T01:05:20Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void furniture.Furniture.furnitureView()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:furniture.Furniture@458ad742]" name="afterEachTestMethod" is-config="true" duration-ms="14679" started-at="2017-05-27T11:48:35Z" finished-at="2017-05-27T11:48:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=furnitureView status=SUCCESS method=Furniture.furnitureView()[pri:0, instance:furniture.Furniture@458ad742] output=Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]]>
+                <![CDATA[[TestResult name=furnitureView status=SUCCESS method=Furniture.furnitureView()[pri:0, instance:furniture.Furniture@5056dfcb] output=Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:furniture.Furniture@458ad742]" name="cleanUp" is-config="true" duration-ms="0" started-at="2017-05-27T11:48:50Z" finished-at="2017-05-27T11:48:50Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:furniture.Furniture@5056dfcb]" name="cleanUp" is-config="true" duration-ms="0" started-at="2017-05-28T01:05:20Z" finished-at="2017-05-28T01:05:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
       </class> <!-- furniture.Furniture -->
-      <class name="furniture.Furniture_DiningRoom">
-        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:furniture.Furniture_DiningRoom@5afa04c]" name="setUp" is-config="true" duration-ms="7485" started-at="2017-05-27T11:48:50Z" finished-at="2017-05-27T11:48:57Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[browserstack]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[OS X]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Sierra]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[53.0]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[https://www.costco.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:furniture.Furniture_DiningRoom@5afa04c]" name="startExtent" is-config="true" duration-ms="0" started-at="2017-05-27T11:48:57Z" finished-at="2017-05-27T11:48:57Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void furniture.Furniture_DiningRoom.DiningRoom()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method status="PASS" signature="DiningRoom()[pri:0, instance:furniture.Furniture_DiningRoom@5afa04c]" name="DiningRoom" duration-ms="3451" started-at="2017-05-27T11:48:57Z" finished-at="2017-05-27T11:49:01Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]>
-            </line>
-            <line>
-              <![CDATA[Launch local browser Instance]]>
-            </line>
-            <line>
-              <![CDATA[FurniturePage: furniture Page View]]>
-            </line>
-            <line>
-              <![CDATA[HomePage: go To Furniture Selection]]>
-            </line>
-            <line>
-              <![CDATA[HomePage: click On Selection Menu]]>
-            </line>
-            <line>
-              <![CDATA[HomePage: get Selection Menu Web Element]]>
-            </line>
-            <line>
-              <![CDATA[HomePage: click On Furniture Selection]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- DiningRoom -->
-        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:furniture.Furniture_DiningRoom@5afa04c]" name="afterEachTestMethod" is-config="true" duration-ms="13413" started-at="2017-05-27T11:49:01Z" finished-at="2017-05-27T11:49:14Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=DiningRoom status=SUCCESS method=Furniture_DiningRoom.DiningRoom()[pri:0, instance:furniture.Furniture_DiningRoom@5afa04c] output=Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:furniture.Furniture_DiningRoom@5afa04c]" name="cleanUp" is-config="true" duration-ms="0" started-at="2017-05-27T11:49:14Z" finished-at="2017-05-27T11:49:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUp -->
-      </class> <!-- furniture.Furniture_DiningRoom -->
       <class name="electronics.Electronics_Cameras">
-        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:electronics.Electronics_Cameras@2344fc66]" name="setUp" is-config="true" duration-ms="7966" started-at="2017-05-27T11:47:57Z" finished-at="2017-05-27T11:48:05Z">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:electronics.Electronics_Cameras@32e6e9c3]" name="setUp" is-config="true" duration-ms="7357" started-at="2017-05-28T01:04:32Z" finished-at="2017-05-28T01:04:39Z">
           <params>
             <param index="0">
               <value>
@@ -872,7 +778,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="Cameras()[pri:0, instance:electronics.Electronics_Cameras@2344fc66]" name="Cameras" duration-ms="4403" started-at="2017-05-27T11:48:05Z" finished-at="2017-05-27T11:48:09Z">
+        <test-method status="PASS" signature="Cameras()[pri:0, instance:electronics.Electronics_Cameras@32e6e9c3]" name="Cameras" duration-ms="3335" started-at="2017-05-28T01:04:39Z" finished-at="2017-05-28T01:04:43Z">
           <reporter-output>
             <line>
               <![CDATA[Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]>
@@ -897,7 +803,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Cameras -->
-        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:electronics.Electronics_Cameras@2344fc66]" name="startExtent" is-config="true" duration-ms="0" started-at="2017-05-27T11:48:05Z" finished-at="2017-05-27T11:48:05Z">
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:electronics.Electronics_Cameras@32e6e9c3]" name="startExtent" is-config="true" duration-ms="0" started-at="2017-05-28T01:04:39Z" finished-at="2017-05-28T01:04:39Z">
           <params>
             <param index="0">
               <value>
@@ -908,24 +814,24 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:electronics.Electronics_Cameras@2344fc66]" name="afterEachTestMethod" is-config="true" duration-ms="11383" started-at="2017-05-27T11:48:09Z" finished-at="2017-05-27T11:48:21Z">
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:electronics.Electronics_Cameras@32e6e9c3]" name="afterEachTestMethod" is-config="true" duration-ms="14668" started-at="2017-05-28T01:04:43Z" finished-at="2017-05-28T01:04:57Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Cameras status=SUCCESS method=Electronics_Cameras.Cameras()[pri:0, instance:electronics.Electronics_Cameras@2344fc66] output=Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]]>
+                <![CDATA[[TestResult name=Cameras status=SUCCESS method=Electronics_Cameras.Cameras()[pri:0, instance:electronics.Electronics_Cameras@32e6e9c3] output=Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:electronics.Electronics_Cameras@2344fc66]" name="cleanUp" is-config="true" duration-ms="1" started-at="2017-05-27T11:48:21Z" finished-at="2017-05-27T11:48:21Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:electronics.Electronics_Cameras@32e6e9c3]" name="cleanUp" is-config="true" duration-ms="0" started-at="2017-05-28T01:04:57Z" finished-at="2017-05-28T01:04:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
       </class> <!-- electronics.Electronics_Cameras -->
-      <class name="appliances.Appliances_Washers">
-        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:appliances.Appliances_Washers@5056dfcb]" name="setUp" is-config="true" duration-ms="6914" started-at="2017-05-27T11:45:31Z" finished-at="2017-05-27T11:45:38Z">
+      <class name="furniture.Furniture_DiningRoom">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:furniture.Furniture_DiningRoom@6574b225]" name="setUp" is-config="true" duration-ms="80394" started-at="2017-05-28T01:05:20Z" finished-at="2017-05-28T01:06:41Z">
           <params>
             <param index="0">
               <value>
@@ -966,18 +872,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:appliances.Appliances_Washers@5056dfcb]" name="startExtent" is-config="true" duration-ms="0" started-at="2017-05-27T11:45:38Z" finished-at="2017-05-27T11:45:38Z">
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:furniture.Furniture_DiningRoom@6574b225]" name="startExtent" is-config="true" duration-ms="0" started-at="2017-05-28T01:06:41Z" finished-at="2017-05-28T01:06:41Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void appliances.Appliances_Washers.Washers()]]>
+                <![CDATA[public void furniture.Furniture_DiningRoom.DiningRoom()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method status="PASS" signature="Washers()[pri:0, instance:appliances.Appliances_Washers@5056dfcb]" name="Washers" duration-ms="5309" started-at="2017-05-27T11:45:38Z" finished-at="2017-05-27T11:45:43Z">
+        <test-method status="PASS" signature="DiningRoom()[pri:0, instance:furniture.Furniture_DiningRoom@6574b225]" name="DiningRoom" duration-ms="3465" started-at="2017-05-28T01:06:41Z" finished-at="2017-05-28T01:06:44Z">
           <reporter-output>
             <line>
               <![CDATA[Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]>
@@ -986,10 +892,10 @@
               <![CDATA[Launch local browser Instance]]>
             </line>
             <line>
-              <![CDATA[AppliancesPage: appliances Page View]]>
+              <![CDATA[FurniturePage: furniture Page View]]>
             </line>
             <line>
-              <![CDATA[HomePage: go To Appliances Selection]]>
+              <![CDATA[HomePage: go To Furniture Selection]]>
             </line>
             <line>
               <![CDATA[HomePage: click On Selection Menu]]>
@@ -998,28 +904,28 @@
               <![CDATA[HomePage: get Selection Menu Web Element]]>
             </line>
             <line>
-              <![CDATA[HomePage: click On Appliance Selection]]>
+              <![CDATA[HomePage: click On Furniture Selection]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Washers -->
-        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:appliances.Appliances_Washers@5056dfcb]" name="afterEachTestMethod" is-config="true" duration-ms="12923" started-at="2017-05-27T11:45:43Z" finished-at="2017-05-27T11:45:56Z">
+        </test-method> <!-- DiningRoom -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:furniture.Furniture_DiningRoom@6574b225]" name="afterEachTestMethod" is-config="true" duration-ms="14032" started-at="2017-05-28T01:06:44Z" finished-at="2017-05-28T01:06:58Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Washers status=SUCCESS method=Appliances_Washers.Washers()[pri:0, instance:appliances.Appliances_Washers@5056dfcb] output=Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]]>
+                <![CDATA[[TestResult name=DiningRoom status=SUCCESS method=Furniture_DiningRoom.DiningRoom()[pri:0, instance:furniture.Furniture_DiningRoom@6574b225] output=Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:appliances.Appliances_Washers@5056dfcb]" name="cleanUp" is-config="true" duration-ms="0" started-at="2017-05-27T11:45:56Z" finished-at="2017-05-27T11:45:56Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:furniture.Furniture_DiningRoom@6574b225]" name="cleanUp" is-config="true" duration-ms="0" started-at="2017-05-28T01:06:58Z" finished-at="2017-05-28T01:06:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-      </class> <!-- appliances.Appliances_Washers -->
+      </class> <!-- furniture.Furniture_DiningRoom -->
       <class name="computers.Computers_Printers">
-        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:computers.Computers_Printers@6574b225]" name="setUp" is-config="true" duration-ms="9766" started-at="2017-05-27T11:45:56Z" finished-at="2017-05-27T11:46:06Z">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:computers.Computers_Printers@b97c004]" name="setUp" is-config="true" duration-ms="7104" started-at="2017-05-28T01:03:39Z" finished-at="2017-05-28T01:03:46Z">
           <params>
             <param index="0">
               <value>
@@ -1060,7 +966,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:computers.Computers_Printers@6574b225]" name="startExtent" is-config="true" duration-ms="1" started-at="2017-05-27T11:46:06Z" finished-at="2017-05-27T11:46:06Z">
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:computers.Computers_Printers@b97c004]" name="startExtent" is-config="true" duration-ms="0" started-at="2017-05-28T01:03:46Z" finished-at="2017-05-28T01:03:46Z">
           <params>
             <param index="0">
               <value>
@@ -1071,7 +977,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method status="PASS" signature="Printers()[pri:0, instance:computers.Computers_Printers@6574b225]" name="Printers" duration-ms="2894" started-at="2017-05-27T11:46:06Z" finished-at="2017-05-27T11:46:08Z">
+        <test-method status="PASS" signature="Printers()[pri:0, instance:computers.Computers_Printers@b97c004]" name="Printers" duration-ms="3780" started-at="2017-05-28T01:03:46Z" finished-at="2017-05-28T01:03:50Z">
           <reporter-output>
             <line>
               <![CDATA[Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]>
@@ -1096,706 +1002,24 @@
             </line>
           </reporter-output>
         </test-method> <!-- Printers -->
-        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:computers.Computers_Printers@6574b225]" name="afterEachTestMethod" is-config="true" duration-ms="10064" started-at="2017-05-27T11:46:09Z" finished-at="2017-05-27T11:46:19Z">
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:computers.Computers_Printers@b97c004]" name="afterEachTestMethod" is-config="true" duration-ms="10692" started-at="2017-05-28T01:03:50Z" finished-at="2017-05-28T01:04:01Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Printers status=SUCCESS method=Computers_Printers.Printers()[pri:0, instance:computers.Computers_Printers@6574b225] output=Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]]>
+                <![CDATA[[TestResult name=Printers status=SUCCESS method=Computers_Printers.Printers()[pri:0, instance:computers.Computers_Printers@b97c004] output=Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:computers.Computers_Printers@6574b225]" name="cleanUp" is-config="true" duration-ms="1" started-at="2017-05-27T11:46:19Z" finished-at="2017-05-27T11:46:19Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:computers.Computers_Printers@b97c004]" name="cleanUp" is-config="true" duration-ms="1" started-at="2017-05-28T01:04:01Z" finished-at="2017-05-28T01:04:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
       </class> <!-- computers.Computers_Printers -->
-    </test> <!-- Costco Home -->
-  </suite> <!-- Amazon -->
-  <suite name="Costco" duration-ms="195088" started-at="2017-05-27T15:41:51Z" finished-at="2017-05-27T15:45:06Z">
-    <groups>
-    </groups>
-    <test name="Costco Home" duration-ms="195088" started-at="2017-05-27T15:41:51Z" finished-at="2017-05-27T15:45:06Z">
-      <class name="appliances.Appliances">
-        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:appliances.Appliances@7225790e]" name="extentSetup" is-config="true" duration-ms="339" started-at="2017-05-27T11:41:50Z" finished-at="2017-05-27T11:41:51Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@1c72da34]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Extent Report directory: C:\Users\Zahera\IdeaProjects4\automation-march2017\Costco\target\surefire-reports\html]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- extentSetup -->
-        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:appliances.Appliances@7225790e]" name="setUp" is-config="true" duration-ms="12738" started-at="2017-05-27T11:41:51Z" finished-at="2017-05-27T11:42:03Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[browserstack]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[10]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[53.0]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[https://www.costco.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:appliances.Appliances@7225790e]" name="startExtent" is-config="true" duration-ms="4" started-at="2017-05-27T11:42:03Z" finished-at="2017-05-27T11:42:03Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void appliances.Appliances.appliancesView()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method status="PASS" signature="appliancesView()[pri:0, instance:appliances.Appliances@7225790e]" name="appliancesView" duration-ms="5650" started-at="2017-05-27T11:42:03Z" finished-at="2017-05-27T11:42:09Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]>
-            </line>
-            <line>
-              <![CDATA[Launch local browser Instance]]>
-            </line>
-            <line>
-              <![CDATA[AppliancesPage: appliances Page View]]>
-            </line>
-            <line>
-              <![CDATA[HomePage: go To Appliances Selection]]>
-            </line>
-            <line>
-              <![CDATA[HomePage: click On Selection Menu]]>
-            </line>
-            <line>
-              <![CDATA[HomePage: get Selection Menu Web Element]]>
-            </line>
-            <line>
-              <![CDATA[HomePage: click On Appliance Selection]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- appliancesView -->
-        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:appliances.Appliances@7225790e]" name="afterEachTestMethod" is-config="true" duration-ms="5195" started-at="2017-05-27T11:42:09Z" finished-at="2017-05-27T11:42:14Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=appliancesView status=SUCCESS method=Appliances.appliancesView()[pri:0, instance:appliances.Appliances@7225790e] output=Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:appliances.Appliances@7225790e]" name="cleanUp" is-config="true" duration-ms="1" started-at="2017-05-27T11:42:14Z" finished-at="2017-05-27T11:42:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUp -->
-        <test-method status="PASS" signature="generateReport()[pri:0, instance:appliances.Appliances@7225790e]" name="generateReport" is-config="true" duration-ms="47" started-at="2017-05-27T11:45:06Z" finished-at="2017-05-27T11:45:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- generateReport -->
-      </class> <!-- appliances.Appliances -->
-      <class name="furniture.Furniture_LivingRoom">
-        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:furniture.Furniture_LivingRoom@735b478]" name="setUp" is-config="true" duration-ms="11532" started-at="2017-05-27T11:44:41Z" finished-at="2017-05-27T11:44:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[browserstack]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[10]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[53.0]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[https://www.costco.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:furniture.Furniture_LivingRoom@735b478]" name="startExtent" is-config="true" duration-ms="1" started-at="2017-05-27T11:44:53Z" finished-at="2017-05-27T11:44:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void furniture.Furniture_LivingRoom.LivingRoom()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method status="PASS" signature="LivingRoom()[pri:0, instance:furniture.Furniture_LivingRoom@735b478]" name="LivingRoom" duration-ms="7420" started-at="2017-05-27T11:44:53Z" finished-at="2017-05-27T11:45:00Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]>
-            </line>
-            <line>
-              <![CDATA[Launch local browser Instance]]>
-            </line>
-            <line>
-              <![CDATA[FurniturePage: furniture Page View]]>
-            </line>
-            <line>
-              <![CDATA[HomePage: go To Furniture Selection]]>
-            </line>
-            <line>
-              <![CDATA[HomePage: click On Selection Menu]]>
-            </line>
-            <line>
-              <![CDATA[HomePage: get Selection Menu Web Element]]>
-            </line>
-            <line>
-              <![CDATA[HomePage: click On Furniture Selection]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- LivingRoom -->
-        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:furniture.Furniture_LivingRoom@735b478]" name="afterEachTestMethod" is-config="true" duration-ms="5374" started-at="2017-05-27T11:45:00Z" finished-at="2017-05-27T11:45:06Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=LivingRoom status=SUCCESS method=Furniture_LivingRoom.LivingRoom()[pri:0, instance:furniture.Furniture_LivingRoom@735b478] output=Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:furniture.Furniture_LivingRoom@735b478]" name="cleanUp" is-config="true" duration-ms="0" started-at="2017-05-27T11:45:06Z" finished-at="2017-05-27T11:45:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUp -->
-      </class> <!-- furniture.Furniture_LivingRoom -->
-      <class name="electronics.Electronics">
-        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:electronics.Electronics@5a61f5df]" name="setUp" is-config="true" duration-ms="13343" started-at="2017-05-27T11:43:04Z" finished-at="2017-05-27T11:43:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[browserstack]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[10]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[53.0]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[https://www.costco.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="electronicsView()[pri:0, instance:electronics.Electronics@5a61f5df]" name="electronicsView" duration-ms="5188" started-at="2017-05-27T11:43:18Z" finished-at="2017-05-27T11:43:23Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]>
-            </line>
-            <line>
-              <![CDATA[Launch local browser Instance]]>
-            </line>
-            <line>
-              <![CDATA[ElectronicsPage: electronics Page View]]>
-            </line>
-            <line>
-              <![CDATA[HomePage: go To Electronics Selection]]>
-            </line>
-            <line>
-              <![CDATA[HomePage: click On Selection Menu]]>
-            </line>
-            <line>
-              <![CDATA[HomePage: get Selection Menu Web Element]]>
-            </line>
-            <line>
-              <![CDATA[HomePage: click On Electronics Selection]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- electronicsView -->
-        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:electronics.Electronics@5a61f5df]" name="startExtent" is-config="true" duration-ms="0" started-at="2017-05-27T11:43:18Z" finished-at="2017-05-27T11:43:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void electronics.Electronics.electronicsView()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:electronics.Electronics@5a61f5df]" name="afterEachTestMethod" is-config="true" duration-ms="5204" started-at="2017-05-27T11:43:23Z" finished-at="2017-05-27T11:43:28Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=electronicsView status=SUCCESS method=Electronics.electronicsView()[pri:0, instance:electronics.Electronics@5a61f5df] output=Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:electronics.Electronics@5a61f5df]" name="cleanUp" is-config="true" duration-ms="0" started-at="2017-05-27T11:43:28Z" finished-at="2017-05-27T11:43:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUp -->
-      </class> <!-- electronics.Electronics -->
-      <class name="furniture.Furniture">
-        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:furniture.Furniture@531be3c5]" name="setUp" is-config="true" duration-ms="15913" started-at="2017-05-27T11:43:51Z" finished-at="2017-05-27T11:44:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[browserstack]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[10]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[53.0]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[https://www.costco.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:furniture.Furniture@531be3c5]" name="startExtent" is-config="true" duration-ms="1" started-at="2017-05-27T11:44:07Z" finished-at="2017-05-27T11:44:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void furniture.Furniture.furnitureView()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method status="PASS" signature="furnitureView()[pri:0, instance:furniture.Furniture@531be3c5]" name="furnitureView" duration-ms="5599" started-at="2017-05-27T11:44:07Z" finished-at="2017-05-27T11:44:12Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]>
-            </line>
-            <line>
-              <![CDATA[Launch local browser Instance]]>
-            </line>
-            <line>
-              <![CDATA[FurniturePage: furniture Page View]]>
-            </line>
-            <line>
-              <![CDATA[HomePage: go To Furniture Selection]]>
-            </line>
-            <line>
-              <![CDATA[HomePage: click On Selection Menu]]>
-            </line>
-            <line>
-              <![CDATA[HomePage: get Selection Menu Web Element]]>
-            </line>
-            <line>
-              <![CDATA[HomePage: click On Furniture Selection]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- furnitureView -->
-        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:furniture.Furniture@531be3c5]" name="afterEachTestMethod" is-config="true" duration-ms="6004" started-at="2017-05-27T11:44:12Z" finished-at="2017-05-27T11:44:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=furnitureView status=SUCCESS method=Furniture.furnitureView()[pri:0, instance:furniture.Furniture@531be3c5] output=Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:furniture.Furniture@531be3c5]" name="cleanUp" is-config="true" duration-ms="0" started-at="2017-05-27T11:44:18Z" finished-at="2017-05-27T11:44:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUp -->
-      </class> <!-- furniture.Furniture -->
-      <class name="computers.Computers">
-        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:computers.Computers@36f6e879]" name="setUp" is-config="true" duration-ms="13522" started-at="2017-05-27T11:42:38Z" finished-at="2017-05-27T11:42:52Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[browserstack]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[10]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[53.0]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[https://www.costco.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:computers.Computers@36f6e879]" name="startExtent" is-config="true" duration-ms="0" started-at="2017-05-27T11:42:52Z" finished-at="2017-05-27T11:42:52Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void computers.Computers.computersView()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method status="PASS" signature="computersView()[pri:0, instance:computers.Computers@36f6e879]" name="computersView" duration-ms="6079" started-at="2017-05-27T11:42:52Z" finished-at="2017-05-27T11:42:58Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]>
-            </line>
-            <line>
-              <![CDATA[Launch local browser Instance]]>
-            </line>
-            <line>
-              <![CDATA[ComputersPage: electronics Page View]]>
-            </line>
-            <line>
-              <![CDATA[HomePage: go To Computers Selection]]>
-            </line>
-            <line>
-              <![CDATA[HomePage: click On Selection Menu]]>
-            </line>
-            <line>
-              <![CDATA[HomePage: get Selection Menu Web Element]]>
-            </line>
-            <line>
-              <![CDATA[HomePage: click On Computers Selection]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- computersView -->
-        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:computers.Computers@36f6e879]" name="afterEachTestMethod" is-config="true" duration-ms="6293" started-at="2017-05-27T11:42:58Z" finished-at="2017-05-27T11:43:04Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=computersView status=SUCCESS method=Computers.computersView()[pri:0, instance:computers.Computers@36f6e879] output=Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:computers.Computers@36f6e879]" name="cleanUp" is-config="true" duration-ms="0" started-at="2017-05-27T11:43:04Z" finished-at="2017-05-27T11:43:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUp -->
-      </class> <!-- computers.Computers -->
-      <class name="electronics.Electronics_Cameras">
-        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:electronics.Electronics_Cameras@3551a94]" name="setUp" is-config="true" duration-ms="13186" started-at="2017-05-27T11:43:28Z" finished-at="2017-05-27T11:43:41Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[browserstack]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[10]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[53.0]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[https://www.costco.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:electronics.Electronics_Cameras@3551a94]" name="startExtent" is-config="true" duration-ms="0" started-at="2017-05-27T11:43:41Z" finished-at="2017-05-27T11:43:41Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void electronics.Electronics_Cameras.Cameras()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method status="PASS" signature="Cameras()[pri:0, instance:electronics.Electronics_Cameras@3551a94]" name="Cameras" duration-ms="4232" started-at="2017-05-27T11:43:41Z" finished-at="2017-05-27T11:43:45Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]>
-            </line>
-            <line>
-              <![CDATA[Launch local browser Instance]]>
-            </line>
-            <line>
-              <![CDATA[ElectronicsPage: electronics Page View]]>
-            </line>
-            <line>
-              <![CDATA[HomePage: go To Electronics Selection]]>
-            </line>
-            <line>
-              <![CDATA[HomePage: click On Selection Menu]]>
-            </line>
-            <line>
-              <![CDATA[HomePage: get Selection Menu Web Element]]>
-            </line>
-            <line>
-              <![CDATA[HomePage: click On Electronics Selection]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Cameras -->
-        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:electronics.Electronics_Cameras@3551a94]" name="afterEachTestMethod" is-config="true" duration-ms="5374" started-at="2017-05-27T11:43:45Z" finished-at="2017-05-27T11:43:51Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Cameras status=SUCCESS method=Electronics_Cameras.Cameras()[pri:0, instance:electronics.Electronics_Cameras@3551a94] output=Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:electronics.Electronics_Cameras@3551a94]" name="cleanUp" is-config="true" duration-ms="1" started-at="2017-05-27T11:43:51Z" finished-at="2017-05-27T11:43:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUp -->
-      </class> <!-- electronics.Electronics_Cameras -->
-      <class name="furniture.Furniture_DiningRoom">
-        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:furniture.Furniture_DiningRoom@52af6cff]" name="setUp" is-config="true" duration-ms="11812" started-at="2017-05-27T11:44:18Z" finished-at="2017-05-27T11:44:30Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[browserstack]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[10]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[53.0]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[https://www.costco.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:furniture.Furniture_DiningRoom@52af6cff]" name="startExtent" is-config="true" duration-ms="1" started-at="2017-05-27T11:44:30Z" finished-at="2017-05-27T11:44:30Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void furniture.Furniture_DiningRoom.DiningRoom()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method status="PASS" signature="DiningRoom()[pri:0, instance:furniture.Furniture_DiningRoom@52af6cff]" name="DiningRoom" duration-ms="3888" started-at="2017-05-27T11:44:30Z" finished-at="2017-05-27T11:44:34Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]>
-            </line>
-            <line>
-              <![CDATA[Launch local browser Instance]]>
-            </line>
-            <line>
-              <![CDATA[FurniturePage: furniture Page View]]>
-            </line>
-            <line>
-              <![CDATA[HomePage: go To Furniture Selection]]>
-            </line>
-            <line>
-              <![CDATA[HomePage: click On Selection Menu]]>
-            </line>
-            <line>
-              <![CDATA[HomePage: get Selection Menu Web Element]]>
-            </line>
-            <line>
-              <![CDATA[HomePage: click On Furniture Selection]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- DiningRoom -->
-        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:furniture.Furniture_DiningRoom@52af6cff]" name="afterEachTestMethod" is-config="true" duration-ms="7261" started-at="2017-05-27T11:44:34Z" finished-at="2017-05-27T11:44:41Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=DiningRoom status=SUCCESS method=Furniture_DiningRoom.DiningRoom()[pri:0, instance:furniture.Furniture_DiningRoom@52af6cff] output=Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:furniture.Furniture_DiningRoom@52af6cff]" name="cleanUp" is-config="true" duration-ms="0" started-at="2017-05-27T11:44:41Z" finished-at="2017-05-27T11:44:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUp -->
-      </class> <!-- furniture.Furniture_DiningRoom -->
       <class name="appliances.Appliances_Washers">
-        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:appliances.Appliances_Washers@54a097cc]" name="setUp" is-config="true" duration-ms="11732" started-at="2017-05-27T11:42:14Z" finished-at="2017-05-27T11:42:26Z">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:appliances.Appliances_Washers@5cc7c2a6]" name="setUp" is-config="true" duration-ms="10593" started-at="2017-05-28T01:03:03Z" finished-at="2017-05-28T01:03:14Z">
           <params>
             <param index="0">
               <value>
@@ -1809,12 +1033,12 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[Windows]]>
+                <![CDATA[OS X]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[10]]>
+                <![CDATA[Sierra]]>
               </value>
             </param>
             <param index="4">
@@ -1836,7 +1060,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="Washers()[pri:0, instance:appliances.Appliances_Washers@54a097cc]" name="Washers" duration-ms="7167" started-at="2017-05-27T11:42:26Z" finished-at="2017-05-27T11:42:33Z">
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:appliances.Appliances_Washers@5cc7c2a6]" name="startExtent" is-config="true" duration-ms="0" started-at="2017-05-28T01:03:14Z" finished-at="2017-05-28T01:03:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void appliances.Appliances_Washers.Washers()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="Washers()[pri:0, instance:appliances.Appliances_Washers@5cc7c2a6]" name="Washers" duration-ms="9242" started-at="2017-05-28T01:03:14Z" finished-at="2017-05-28T01:03:23Z">
           <reporter-output>
             <line>
               <![CDATA[Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]>
@@ -1861,7 +1096,747 @@
             </line>
           </reporter-output>
         </test-method> <!-- Washers -->
-        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:appliances.Appliances_Washers@54a097cc]" name="startExtent" is-config="true" duration-ms="0" started-at="2017-05-27T11:42:26Z" finished-at="2017-05-27T11:42:26Z">
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:appliances.Appliances_Washers@5cc7c2a6]" name="afterEachTestMethod" is-config="true" duration-ms="16529" started-at="2017-05-28T01:03:23Z" finished-at="2017-05-28T01:03:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Washers status=SUCCESS method=Appliances_Washers.Washers()[pri:0, instance:appliances.Appliances_Washers@5cc7c2a6] output=Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:appliances.Appliances_Washers@5cc7c2a6]" name="cleanUp" is-config="true" duration-ms="0" started-at="2017-05-28T01:03:39Z" finished-at="2017-05-28T01:03:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- appliances.Appliances_Washers -->
+    </test> <!-- Costco Home -->
+  </suite> <!-- Amazon -->
+  <suite name="Costco" duration-ms="194123" started-at="2017-05-28T04:59:20Z" finished-at="2017-05-28T05:02:34Z">
+    <groups>
+    </groups>
+    <test name="Costco Home" duration-ms="194123" started-at="2017-05-28T04:59:20Z" finished-at="2017-05-28T05:02:34Z">
+      <class name="appliances.Appliances">
+        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:appliances.Appliances@366e2eef]" name="extentSetup" is-config="true" duration-ms="298" started-at="2017-05-28T00:59:20Z" finished-at="2017-05-28T00:59:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d339552]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Extent Report directory: C:\Users\Zahera\IdeaProjects4\automation-march2017\Costco\target\surefire-reports\html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:appliances.Appliances@366e2eef]" name="setUp" is-config="true" duration-ms="14562" started-at="2017-05-28T00:59:20Z" finished-at="2017-05-28T00:59:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[53.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.costco.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:appliances.Appliances@366e2eef]" name="startExtent" is-config="true" duration-ms="4" started-at="2017-05-28T00:59:35Z" finished-at="2017-05-28T00:59:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void appliances.Appliances.appliancesView()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="appliancesView()[pri:0, instance:appliances.Appliances@366e2eef]" name="appliancesView" duration-ms="5720" started-at="2017-05-28T00:59:35Z" finished-at="2017-05-28T00:59:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]>
+            </line>
+            <line>
+              <![CDATA[Launch local browser Instance]]>
+            </line>
+            <line>
+              <![CDATA[AppliancesPage: appliances Page View]]>
+            </line>
+            <line>
+              <![CDATA[HomePage: go To Appliances Selection]]>
+            </line>
+            <line>
+              <![CDATA[HomePage: click On Selection Menu]]>
+            </line>
+            <line>
+              <![CDATA[HomePage: get Selection Menu Web Element]]>
+            </line>
+            <line>
+              <![CDATA[HomePage: click On Appliance Selection]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- appliancesView -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:appliances.Appliances@366e2eef]" name="afterEachTestMethod" is-config="true" duration-ms="5561" started-at="2017-05-28T00:59:40Z" finished-at="2017-05-28T00:59:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=appliancesView status=SUCCESS method=Appliances.appliancesView()[pri:0, instance:appliances.Appliances@366e2eef] output=Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:appliances.Appliances@366e2eef]" name="cleanUp" is-config="true" duration-ms="1" started-at="2017-05-28T00:59:46Z" finished-at="2017-05-28T00:59:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:appliances.Appliances@366e2eef]" name="generateReport" is-config="true" duration-ms="39" started-at="2017-05-28T01:02:34Z" finished-at="2017-05-28T01:02:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- appliances.Appliances -->
+      <class name="furniture.Furniture_LivingRoom">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:furniture.Furniture_LivingRoom@5a61f5df]" name="setUp" is-config="true" duration-ms="16757" started-at="2017-05-28T01:02:03Z" finished-at="2017-05-28T01:02:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[53.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.costco.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:furniture.Furniture_LivingRoom@5a61f5df]" name="startExtent" is-config="true" duration-ms="0" started-at="2017-05-28T01:02:20Z" finished-at="2017-05-28T01:02:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void furniture.Furniture_LivingRoom.LivingRoom()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="LivingRoom()[pri:0, instance:furniture.Furniture_LivingRoom@5a61f5df]" name="LivingRoom" duration-ms="7966" started-at="2017-05-28T01:02:20Z" finished-at="2017-05-28T01:02:28Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]>
+            </line>
+            <line>
+              <![CDATA[Launch local browser Instance]]>
+            </line>
+            <line>
+              <![CDATA[FurniturePage: furniture Page View]]>
+            </line>
+            <line>
+              <![CDATA[HomePage: go To Furniture Selection]]>
+            </line>
+            <line>
+              <![CDATA[HomePage: click On Selection Menu]]>
+            </line>
+            <line>
+              <![CDATA[HomePage: get Selection Menu Web Element]]>
+            </line>
+            <line>
+              <![CDATA[HomePage: click On Furniture Selection]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LivingRoom -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:furniture.Furniture_LivingRoom@5a61f5df]" name="afterEachTestMethod" is-config="true" duration-ms="6113" started-at="2017-05-28T01:02:28Z" finished-at="2017-05-28T01:02:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LivingRoom status=SUCCESS method=Furniture_LivingRoom.LivingRoom()[pri:0, instance:furniture.Furniture_LivingRoom@5a61f5df] output=Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:furniture.Furniture_LivingRoom@5a61f5df]" name="cleanUp" is-config="true" duration-ms="0" started-at="2017-05-28T01:02:34Z" finished-at="2017-05-28T01:02:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- furniture.Furniture_LivingRoom -->
+      <class name="electronics.Electronics">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:electronics.Electronics@35fb3008]" name="setUp" is-config="true" duration-ms="12745" started-at="2017-05-28T01:00:31Z" finished-at="2017-05-28T01:00:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[53.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.costco.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="electronicsView()[pri:0, instance:electronics.Electronics@35fb3008]" name="electronicsView" duration-ms="5905" started-at="2017-05-28T01:00:43Z" finished-at="2017-05-28T01:00:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]>
+            </line>
+            <line>
+              <![CDATA[Launch local browser Instance]]>
+            </line>
+            <line>
+              <![CDATA[ElectronicsPage: electronics Page View]]>
+            </line>
+            <line>
+              <![CDATA[HomePage: go To Electronics Selection]]>
+            </line>
+            <line>
+              <![CDATA[HomePage: click On Selection Menu]]>
+            </line>
+            <line>
+              <![CDATA[HomePage: get Selection Menu Web Element]]>
+            </line>
+            <line>
+              <![CDATA[HomePage: click On Electronics Selection]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- electronicsView -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:electronics.Electronics@35fb3008]" name="startExtent" is-config="true" duration-ms="0" started-at="2017-05-28T01:00:43Z" finished-at="2017-05-28T01:00:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void electronics.Electronics.electronicsView()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:electronics.Electronics@35fb3008]" name="afterEachTestMethod" is-config="true" duration-ms="5297" started-at="2017-05-28T01:00:49Z" finished-at="2017-05-28T01:00:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=electronicsView status=SUCCESS method=Electronics.electronicsView()[pri:0, instance:electronics.Electronics@35fb3008] output=Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:electronics.Electronics@35fb3008]" name="cleanUp" is-config="true" duration-ms="0" started-at="2017-05-28T01:00:55Z" finished-at="2017-05-28T01:00:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- electronics.Electronics -->
+      <class name="furniture.Furniture">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:furniture.Furniture@54a097cc]" name="setUp" is-config="true" duration-ms="14584" started-at="2017-05-28T01:01:17Z" finished-at="2017-05-28T01:01:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[53.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.costco.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:furniture.Furniture@54a097cc]" name="startExtent" is-config="true" duration-ms="0" started-at="2017-05-28T01:01:32Z" finished-at="2017-05-28T01:01:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void furniture.Furniture.furnitureView()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="furnitureView()[pri:0, instance:furniture.Furniture@54a097cc]" name="furnitureView" duration-ms="6898" started-at="2017-05-28T01:01:32Z" finished-at="2017-05-28T01:01:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]>
+            </line>
+            <line>
+              <![CDATA[Launch local browser Instance]]>
+            </line>
+            <line>
+              <![CDATA[FurniturePage: furniture Page View]]>
+            </line>
+            <line>
+              <![CDATA[HomePage: go To Furniture Selection]]>
+            </line>
+            <line>
+              <![CDATA[HomePage: click On Selection Menu]]>
+            </line>
+            <line>
+              <![CDATA[HomePage: get Selection Menu Web Element]]>
+            </line>
+            <line>
+              <![CDATA[HomePage: click On Furniture Selection]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- furnitureView -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:furniture.Furniture@54a097cc]" name="afterEachTestMethod" is-config="true" duration-ms="5216" started-at="2017-05-28T01:01:39Z" finished-at="2017-05-28T01:01:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=furnitureView status=SUCCESS method=Furniture.furnitureView()[pri:0, instance:furniture.Furniture@54a097cc] output=Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:furniture.Furniture@54a097cc]" name="cleanUp" is-config="true" duration-ms="0" started-at="2017-05-28T01:01:44Z" finished-at="2017-05-28T01:01:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- furniture.Furniture -->
+      <class name="computers.Computers">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:computers.Computers@3cbbc1e0]" name="setUp" is-config="true" duration-ms="11286" started-at="2017-05-28T01:00:09Z" finished-at="2017-05-28T01:00:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[53.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.costco.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="computersView()[pri:0, instance:computers.Computers@3cbbc1e0]" name="computersView" duration-ms="4720" started-at="2017-05-28T01:00:20Z" finished-at="2017-05-28T01:00:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]>
+            </line>
+            <line>
+              <![CDATA[Launch local browser Instance]]>
+            </line>
+            <line>
+              <![CDATA[ComputersPage: electronics Page View]]>
+            </line>
+            <line>
+              <![CDATA[HomePage: go To Computers Selection]]>
+            </line>
+            <line>
+              <![CDATA[HomePage: click On Selection Menu]]>
+            </line>
+            <line>
+              <![CDATA[HomePage: get Selection Menu Web Element]]>
+            </line>
+            <line>
+              <![CDATA[HomePage: click On Computers Selection]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- computersView -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:computers.Computers@3cbbc1e0]" name="startExtent" is-config="true" duration-ms="0" started-at="2017-05-28T01:00:20Z" finished-at="2017-05-28T01:00:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void computers.Computers.computersView()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:computers.Computers@3cbbc1e0]" name="afterEachTestMethod" is-config="true" duration-ms="5383" started-at="2017-05-28T01:00:25Z" finished-at="2017-05-28T01:00:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=computersView status=SUCCESS method=Computers.computersView()[pri:0, instance:computers.Computers@3cbbc1e0] output=Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:computers.Computers@3cbbc1e0]" name="cleanUp" is-config="true" duration-ms="1" started-at="2017-05-28T01:00:31Z" finished-at="2017-05-28T01:00:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- computers.Computers -->
+      <class name="electronics.Electronics_Cameras">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:electronics.Electronics_Cameras@7225790e]" name="setUp" is-config="true" duration-ms="13085" started-at="2017-05-28T01:00:55Z" finished-at="2017-05-28T01:01:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[53.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.costco.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Cameras()[pri:0, instance:electronics.Electronics_Cameras@7225790e]" name="Cameras" duration-ms="3871" started-at="2017-05-28T01:01:08Z" finished-at="2017-05-28T01:01:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]>
+            </line>
+            <line>
+              <![CDATA[Launch local browser Instance]]>
+            </line>
+            <line>
+              <![CDATA[ElectronicsPage: electronics Page View]]>
+            </line>
+            <line>
+              <![CDATA[HomePage: go To Electronics Selection]]>
+            </line>
+            <line>
+              <![CDATA[HomePage: click On Selection Menu]]>
+            </line>
+            <line>
+              <![CDATA[HomePage: get Selection Menu Web Element]]>
+            </line>
+            <line>
+              <![CDATA[HomePage: click On Electronics Selection]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Cameras -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:electronics.Electronics_Cameras@7225790e]" name="startExtent" is-config="true" duration-ms="0" started-at="2017-05-28T01:01:08Z" finished-at="2017-05-28T01:01:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void electronics.Electronics_Cameras.Cameras()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:electronics.Electronics_Cameras@7225790e]" name="afterEachTestMethod" is-config="true" duration-ms="5592" started-at="2017-05-28T01:01:11Z" finished-at="2017-05-28T01:01:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Cameras status=SUCCESS method=Electronics_Cameras.Cameras()[pri:0, instance:electronics.Electronics_Cameras@7225790e] output=Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:electronics.Electronics_Cameras@7225790e]" name="cleanUp" is-config="true" duration-ms="0" started-at="2017-05-28T01:01:17Z" finished-at="2017-05-28T01:01:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- electronics.Electronics_Cameras -->
+      <class name="furniture.Furniture_DiningRoom">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:furniture.Furniture_DiningRoom@36f6e879]" name="setUp" is-config="true" duration-ms="11775" started-at="2017-05-28T01:01:44Z" finished-at="2017-05-28T01:01:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[53.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.costco.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="DiningRoom()[pri:0, instance:furniture.Furniture_DiningRoom@36f6e879]" name="DiningRoom" duration-ms="2368" started-at="2017-05-28T01:01:56Z" finished-at="2017-05-28T01:01:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]>
+            </line>
+            <line>
+              <![CDATA[Launch local browser Instance]]>
+            </line>
+            <line>
+              <![CDATA[FurniturePage: furniture Page View]]>
+            </line>
+            <line>
+              <![CDATA[HomePage: go To Furniture Selection]]>
+            </line>
+            <line>
+              <![CDATA[HomePage: click On Selection Menu]]>
+            </line>
+            <line>
+              <![CDATA[HomePage: get Selection Menu Web Element]]>
+            </line>
+            <line>
+              <![CDATA[HomePage: click On Furniture Selection]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DiningRoom -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:furniture.Furniture_DiningRoom@36f6e879]" name="startExtent" is-config="true" duration-ms="0" started-at="2017-05-28T01:01:56Z" finished-at="2017-05-28T01:01:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void furniture.Furniture_DiningRoom.DiningRoom()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:furniture.Furniture_DiningRoom@36f6e879]" name="afterEachTestMethod" is-config="true" duration-ms="5423" started-at="2017-05-28T01:01:58Z" finished-at="2017-05-28T01:02:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DiningRoom status=SUCCESS method=Furniture_DiningRoom.DiningRoom()[pri:0, instance:furniture.Furniture_DiningRoom@36f6e879] output=Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:furniture.Furniture_DiningRoom@36f6e879]" name="cleanUp" is-config="true" duration-ms="0" started-at="2017-05-28T01:02:03Z" finished-at="2017-05-28T01:02:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- furniture.Furniture_DiningRoom -->
+      <class name="appliances.Appliances_Washers">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:appliances.Appliances_Washers@6df97b55]" name="setUp" is-config="true" duration-ms="11599" started-at="2017-05-28T00:59:46Z" finished-at="2017-05-28T00:59:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[53.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.costco.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:appliances.Appliances_Washers@6df97b55]" name="startExtent" is-config="true" duration-ms="0" started-at="2017-05-28T00:59:57Z" finished-at="2017-05-28T00:59:57Z">
           <params>
             <param index="0">
               <value>
@@ -1872,18 +1847,43 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:appliances.Appliances_Washers@54a097cc]" name="afterEachTestMethod" is-config="true" duration-ms="5353" started-at="2017-05-27T11:42:33Z" finished-at="2017-05-27T11:42:38Z">
+        <test-method status="PASS" signature="Washers()[pri:0, instance:appliances.Appliances_Washers@6df97b55]" name="Washers" duration-ms="6539" started-at="2017-05-28T00:59:57Z" finished-at="2017-05-28T01:00:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]>
+            </line>
+            <line>
+              <![CDATA[Launch local browser Instance]]>
+            </line>
+            <line>
+              <![CDATA[AppliancesPage: appliances Page View]]>
+            </line>
+            <line>
+              <![CDATA[HomePage: go To Appliances Selection]]>
+            </line>
+            <line>
+              <![CDATA[HomePage: click On Selection Menu]]>
+            </line>
+            <line>
+              <![CDATA[HomePage: get Selection Menu Web Element]]>
+            </line>
+            <line>
+              <![CDATA[HomePage: click On Appliance Selection]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Washers -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:appliances.Appliances_Washers@6df97b55]" name="afterEachTestMethod" is-config="true" duration-ms="5134" started-at="2017-05-28T01:00:04Z" finished-at="2017-05-28T01:00:09Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Washers status=SUCCESS method=Appliances_Washers.Washers()[pri:0, instance:appliances.Appliances_Washers@54a097cc] output=Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]]>
+                <![CDATA[[TestResult name=Washers status=SUCCESS method=Appliances_Washers.Washers()[pri:0, instance:appliances.Appliances_Washers@6df97b55] output=Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:appliances.Appliances_Washers@54a097cc]" name="cleanUp" is-config="true" duration-ms="1" started-at="2017-05-27T11:42:38Z" finished-at="2017-05-27T11:42:38Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:appliances.Appliances_Washers@6df97b55]" name="cleanUp" is-config="true" duration-ms="1" started-at="2017-05-28T01:00:09Z" finished-at="2017-05-28T01:00:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->

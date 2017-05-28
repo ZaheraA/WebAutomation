@@ -116,16 +116,16 @@
       <![CDATA[DropDownMenuPage: clear Box]]>
     </line>
   </reporter-output>
-  <suite name="Amazon" duration-ms="81220" started-at="2017-05-27T15:39:31Z" finished-at="2017-05-27T15:40:52Z">
+  <suite name="Amazon" duration-ms="85437" started-at="2017-05-28T04:56:40Z" finished-at="2017-05-28T04:58:05Z">
     <groups>
     </groups>
-    <test name="Amazon Home" duration-ms="81220" started-at="2017-05-27T15:39:31Z" finished-at="2017-05-27T15:40:52Z">
+    <test name="Amazon Home" duration-ms="85437" started-at="2017-05-28T04:56:40Z" finished-at="2017-05-28T04:58:05Z">
       <class name="searchitems.SearchItems">
-        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:searchitems.SearchItems@6615435c]" name="extentSetup" is-config="true" duration-ms="470" started-at="2017-05-27T11:39:30Z" finished-at="2017-05-27T11:39:31Z">
+        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:searchitems.SearchItems@617c74e5]" name="extentSetup" is-config="true" duration-ms="500" started-at="2017-05-28T00:56:39Z" finished-at="2017-05-28T00:56:40Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@551bdc27]]>
+                <![CDATA[org.testng.TestRunner@1372ed45]]>
               </value>
             </param>
           </params>
@@ -135,7 +135,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- extentSetup -->
-        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:searchitems.SearchItems@6615435c]" name="setUp" is-config="true" duration-ms="13598" started-at="2017-05-27T11:39:31Z" finished-at="2017-05-27T11:39:44Z">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:searchitems.SearchItems@617c74e5]" name="setUp" is-config="true" duration-ms="24424" started-at="2017-05-28T00:56:40Z" finished-at="2017-05-28T00:57:04Z">
           <params>
             <param index="0">
               <value>
@@ -176,7 +176,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:searchitems.SearchItems@6615435c]" name="startExtent" is-config="true" duration-ms="6" started-at="2017-05-27T11:39:44Z" finished-at="2017-05-27T11:39:44Z">
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:searchitems.SearchItems@617c74e5]" name="startExtent" is-config="true" duration-ms="4" started-at="2017-05-28T00:57:04Z" finished-at="2017-05-28T00:57:04Z">
           <params>
             <param index="0">
               <value>
@@ -187,7 +187,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method status="PASS" signature="search()[pri:0, instance:searchitems.SearchItems@6615435c]" name="search" duration-ms="28298" started-at="2017-05-27T11:39:44Z" finished-at="2017-05-27T11:40:13Z">
+        <test-method status="PASS" signature="search()[pri:0, instance:searchitems.SearchItems@617c74e5]" name="search" duration-ms="27491" started-at="2017-05-28T00:57:04Z" finished-at="2017-05-28T00:57:32Z">
           <reporter-output>
             <line>
               <![CDATA[Epic: Metro EC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]>
@@ -257,28 +257,28 @@
             </line>
           </reporter-output>
         </test-method> <!-- search -->
-        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:searchitems.SearchItems@6615435c]" name="afterEachTestMethod" is-config="true" duration-ms="4584" started-at="2017-05-27T11:40:13Z" finished-at="2017-05-27T11:40:17Z">
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:searchitems.SearchItems@617c74e5]" name="afterEachTestMethod" is-config="true" duration-ms="3464" started-at="2017-05-28T00:57:32Z" finished-at="2017-05-28T00:57:35Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=search status=SUCCESS method=SearchItems.search()[pri:0, instance:searchitems.SearchItems@6615435c] output=Epic: Metro EC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]]>
+                <![CDATA[[TestResult name=search status=SUCCESS method=SearchItems.search()[pri:0, instance:searchitems.SearchItems@617c74e5] output=Epic: Metro EC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:searchitems.SearchItems@6615435c]" name="cleanUp" is-config="true" duration-ms="0" started-at="2017-05-27T11:40:17Z" finished-at="2017-05-27T11:40:17Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:searchitems.SearchItems@617c74e5]" name="cleanUp" is-config="true" duration-ms="0" started-at="2017-05-28T00:57:35Z" finished-at="2017-05-28T00:57:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method status="PASS" signature="generateReport()[pri:0, instance:searchitems.SearchItems@6615435c]" name="generateReport" is-config="true" duration-ms="102" started-at="2017-05-27T11:40:52Z" finished-at="2017-05-27T11:40:52Z">
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:searchitems.SearchItems@617c74e5]" name="generateReport" is-config="true" duration-ms="53" started-at="2017-05-28T00:58:05Z" finished-at="2017-05-28T00:58:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
       </class> <!-- searchitems.SearchItems -->
       <class name="searchitems.DropDownMenuSearch">
-        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:searchitems.DropDownMenuSearch@4909b8da]" name="setUp" is-config="true" duration-ms="11358" started-at="2017-05-27T11:40:17Z" finished-at="2017-05-27T11:40:29Z">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:searchitems.DropDownMenuSearch@6537cf78]" name="setUp" is-config="true" duration-ms="9726" started-at="2017-05-28T00:57:35Z" finished-at="2017-05-28T00:57:45Z">
           <params>
             <param index="0">
               <value>
@@ -319,7 +319,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="searchMenu()[pri:0, instance:searchitems.DropDownMenuSearch@4909b8da]" name="searchMenu" duration-ms="18969" started-at="2017-05-27T11:40:29Z" finished-at="2017-05-27T11:40:48Z">
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:searchitems.DropDownMenuSearch@6537cf78]" name="startExtent" is-config="true" duration-ms="1" started-at="2017-05-28T00:57:45Z" finished-at="2017-05-28T00:57:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void searchitems.DropDownMenuSearch.searchMenu() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="searchMenu()[pri:0, instance:searchitems.DropDownMenuSearch@6537cf78]" name="searchMenu" duration-ms="18056" started-at="2017-05-28T00:57:45Z" finished-at="2017-05-28T00:58:03Z">
           <reporter-output>
             <line>
               <![CDATA[Epic: Metro EC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]>
@@ -368,41 +379,30 @@
             </line>
           </reporter-output>
         </test-method> <!-- searchMenu -->
-        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:searchitems.DropDownMenuSearch@4909b8da]" name="startExtent" is-config="true" duration-ms="0" started-at="2017-05-27T11:40:29Z" finished-at="2017-05-27T11:40:29Z">
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:searchitems.DropDownMenuSearch@6537cf78]" name="afterEachTestMethod" is-config="true" duration-ms="2256" started-at="2017-05-28T00:58:03Z" finished-at="2017-05-28T00:58:05Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void searchitems.DropDownMenuSearch.searchMenu() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:searchitems.DropDownMenuSearch@4909b8da]" name="afterEachTestMethod" is-config="true" duration-ms="4386" started-at="2017-05-27T11:40:48Z" finished-at="2017-05-27T11:40:52Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=searchMenu status=SUCCESS method=DropDownMenuSearch.searchMenu()[pri:0, instance:searchitems.DropDownMenuSearch@4909b8da] output=Epic: Metro EC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]]>
+                <![CDATA[[TestResult name=searchMenu status=SUCCESS method=DropDownMenuSearch.searchMenu()[pri:0, instance:searchitems.DropDownMenuSearch@6537cf78] output=Epic: Metro EC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:searchitems.DropDownMenuSearch@4909b8da]" name="cleanUp" is-config="true" duration-ms="0" started-at="2017-05-27T11:40:52Z" finished-at="2017-05-27T11:40:52Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:searchitems.DropDownMenuSearch@6537cf78]" name="cleanUp" is-config="true" duration-ms="0" started-at="2017-05-28T00:58:05Z" finished-at="2017-05-28T00:58:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
       </class> <!-- searchitems.DropDownMenuSearch -->
     </test> <!-- Amazon Home -->
   </suite> <!-- Amazon -->
-  <suite name="Amazon (0)" duration-ms="54061" started-at="2017-05-27T15:40:52Z" finished-at="2017-05-27T15:41:46Z">
+  <suite name="Amazon (0)" duration-ms="70951" started-at="2017-05-28T04:58:05Z" finished-at="2017-05-28T04:59:16Z">
     <groups>
     </groups>
-    <test name="Amazon Home" duration-ms="54061" started-at="2017-05-27T15:40:52Z" finished-at="2017-05-27T15:41:46Z">
+    <test name="Amazon Home" duration-ms="70951" started-at="2017-05-28T04:58:05Z" finished-at="2017-05-28T04:59:16Z">
       <class name="home.SearchItems">
-        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.SearchItems@26f67b76]" name="setUp" is-config="true" duration-ms="6734" started-at="2017-05-27T11:41:23Z" finished-at="2017-05-27T11:41:29Z">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.SearchItems@13a57a3b]" name="setUp" is-config="true" duration-ms="39465" started-at="2017-05-28T00:58:26Z" finished-at="2017-05-28T00:59:05Z">
           <params>
             <param index="0">
               <value>
@@ -443,11 +443,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="serach()[pri:0, instance:home.SearchItems@26f67b76]" name="serach" duration-ms="812" started-at="2017-05-27T11:41:29Z" finished-at="2017-05-27T11:41:30Z">
+        <test-method status="PASS" signature="serach()[pri:0, instance:home.SearchItems@13a57a3b]" name="serach" duration-ms="564" started-at="2017-05-28T00:59:05Z" finished-at="2017-05-28T00:59:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- serach -->
-        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.SearchItems@26f67b76]" name="startExtent" is-config="true" duration-ms="0" started-at="2017-05-27T11:41:29Z" finished-at="2017-05-27T11:41:29Z">
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.SearchItems@13a57a3b]" name="startExtent" is-config="true" duration-ms="0" started-at="2017-05-28T00:59:05Z" finished-at="2017-05-28T00:59:05Z">
           <params>
             <param index="0">
               <value>
@@ -458,35 +458,35 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.SearchItems@26f67b76]" name="afterEachTestMethod" is-config="true" duration-ms="16035" started-at="2017-05-27T11:41:30Z" finished-at="2017-05-27T11:41:46Z">
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.SearchItems@13a57a3b]" name="afterEachTestMethod" is-config="true" duration-ms="10594" started-at="2017-05-28T00:59:06Z" finished-at="2017-05-28T00:59:16Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=serach status=SUCCESS method=SearchItems.serach()[pri:0, instance:home.SearchItems@26f67b76] output={null}]]]>
+                <![CDATA[[TestResult name=serach status=SUCCESS method=SearchItems.serach()[pri:0, instance:home.SearchItems@13a57a3b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:home.SearchItems@26f67b76]" name="cleanUp" is-config="true" duration-ms="0" started-at="2017-05-27T11:41:46Z" finished-at="2017-05-27T11:41:46Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:home.SearchItems@13a57a3b]" name="cleanUp" is-config="true" duration-ms="0" started-at="2017-05-28T00:59:16Z" finished-at="2017-05-28T00:59:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
       </class> <!-- home.SearchItems -->
       <class name="home.TestAmazonHome">
-        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:home.TestAmazonHome@97e1986]" name="extentSetup" is-config="true" duration-ms="0" started-at="2017-05-27T11:40:52Z" finished-at="2017-05-27T11:40:52Z">
+        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:home.TestAmazonHome@69d9c55]" name="extentSetup" is-config="true" duration-ms="1" started-at="2017-05-28T00:58:05Z" finished-at="2017-05-28T00:58:05Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@58fdd99]]>
+                <![CDATA[org.testng.TestRunner@25359ed8]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extentSetup -->
-        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.TestAmazonHome@97e1986]" name="setUp" is-config="true" duration-ms="13888" started-at="2017-05-27T11:40:52Z" finished-at="2017-05-27T11:41:06Z">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.TestAmazonHome@69d9c55]" name="setUp" is-config="true" duration-ms="7102" started-at="2017-05-28T00:58:05Z" finished-at="2017-05-28T00:58:12Z">
           <params>
             <param index="0">
               <value>
@@ -527,11 +527,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="amazonTitle()[pri:0, instance:home.TestAmazonHome@97e1986]" name="amazonTitle" duration-ms="410" started-at="2017-05-27T11:41:06Z" finished-at="2017-05-27T11:41:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- amazonTitle -->
-        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.TestAmazonHome@97e1986]" name="startExtent" is-config="true" duration-ms="0" started-at="2017-05-27T11:41:06Z" finished-at="2017-05-27T11:41:06Z">
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.TestAmazonHome@69d9c55]" name="startExtent" is-config="true" duration-ms="1" started-at="2017-05-28T00:58:12Z" finished-at="2017-05-28T00:58:12Z">
           <params>
             <param index="0">
               <value>
@@ -542,22 +538,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.TestAmazonHome@97e1986]" name="afterEachTestMethod" is-config="true" duration-ms="16179" started-at="2017-05-27T11:41:07Z" finished-at="2017-05-27T11:41:23Z">
+        <test-method status="PASS" signature="amazonTitle()[pri:0, instance:home.TestAmazonHome@69d9c55]" name="amazonTitle" duration-ms="142" started-at="2017-05-28T00:58:12Z" finished-at="2017-05-28T00:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonTitle -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.TestAmazonHome@69d9c55]" name="afterEachTestMethod" is-config="true" duration-ms="13081" started-at="2017-05-28T00:58:13Z" finished-at="2017-05-28T00:58:26Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=amazonTitle status=SUCCESS method=TestAmazonHome.amazonTitle()[pri:0, instance:home.TestAmazonHome@97e1986] output={null}]]]>
+                <![CDATA[[TestResult name=amazonTitle status=SUCCESS method=TestAmazonHome.amazonTitle()[pri:0, instance:home.TestAmazonHome@69d9c55] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:home.TestAmazonHome@97e1986]" name="cleanUp" is-config="true" duration-ms="0" started-at="2017-05-27T11:41:23Z" finished-at="2017-05-27T11:41:23Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:home.TestAmazonHome@69d9c55]" name="cleanUp" is-config="true" duration-ms="0" started-at="2017-05-28T00:58:26Z" finished-at="2017-05-28T00:58:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method status="PASS" signature="generateReport()[pri:0, instance:home.TestAmazonHome@97e1986]" name="generateReport" is-config="true" duration-ms="1" started-at="2017-05-27T11:41:46Z" finished-at="2017-05-27T11:41:46Z">
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:home.TestAmazonHome@69d9c55]" name="generateReport" is-config="true" duration-ms="0" started-at="2017-05-28T00:59:16Z" finished-at="2017-05-28T00:59:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="472.387" tests="16" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="481.894" tests="16" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.1.2"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -61,20 +61,20 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="appliancesView" classname="appliances.Appliances" time="5.649"/>
-  <testcase name="appliancesView" classname="appliances.Appliances" time="3.875"/>
-  <testcase name="Washers" classname="appliances.Appliances_Washers" time="7.165"/>
-  <testcase name="Washers" classname="appliances.Appliances_Washers" time="5.31"/>
-  <testcase name="computersView" classname="computers.Computers" time="6.08"/>
-  <testcase name="electronicsView" classname="electronics.Electronics" time="5.189"/>
-  <testcase name="electronicsView" classname="electronics.Electronics" time="3.461"/>
-  <testcase name="Cameras" classname="electronics.Electronics_Cameras" time="4.232"/>
-  <testcase name="Cameras" classname="electronics.Electronics_Cameras" time="4.401"/>
-  <testcase name="furnitureView" classname="furniture.Furniture" time="5.599"/>
-  <testcase name="furnitureView" classname="furniture.Furniture" time="6.056"/>
-  <testcase name="DiningRoom" classname="furniture.Furniture_DiningRoom" time="3.888"/>
-  <testcase name="DiningRoom" classname="furniture.Furniture_DiningRoom" time="3.451"/>
-  <testcase name="LivingRoom" classname="furniture.Furniture_LivingRoom" time="7.42"/>
-  <testcase name="LivingRoom" classname="furniture.Furniture_LivingRoom" time="5.336"/>
-  <testcase name="Printers" classname="computers.Computers_Printers" time="2.895"/>
+  <testcase name="appliancesView" classname="appliances.Appliances" time="5.72"/>
+  <testcase name="appliancesView" classname="appliances.Appliances" time="6.922"/>
+  <testcase name="Washers" classname="appliances.Appliances_Washers" time="6.539"/>
+  <testcase name="Washers" classname="appliances.Appliances_Washers" time="9.241"/>
+  <testcase name="computersView" classname="computers.Computers" time="4.72"/>
+  <testcase name="electronicsView" classname="electronics.Electronics" time="5.905"/>
+  <testcase name="electronicsView" classname="electronics.Electronics" time="6.783"/>
+  <testcase name="Cameras" classname="electronics.Electronics_Cameras" time="3.871"/>
+  <testcase name="Cameras" classname="electronics.Electronics_Cameras" time="3.335"/>
+  <testcase name="furnitureView" classname="furniture.Furniture" time="6.897"/>
+  <testcase name="furnitureView" classname="furniture.Furniture" time="4.475"/>
+  <testcase name="DiningRoom" classname="furniture.Furniture_DiningRoom" time="2.368"/>
+  <testcase name="DiningRoom" classname="furniture.Furniture_DiningRoom" time="3.465"/>
+  <testcase name="LivingRoom" classname="furniture.Furniture_LivingRoom" time="7.966"/>
+  <testcase name="LivingRoom" classname="furniture.Furniture_LivingRoom" time="5.497"/>
+  <testcase name="Printers" classname="computers.Computers_Printers" time="3.78"/>
 </testsuite>

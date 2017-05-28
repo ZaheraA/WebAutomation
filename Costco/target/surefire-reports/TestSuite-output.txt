@@ -1,7 +1,7 @@
 Extent Report directory: C:\Users\Zahera\IdeaProjects4\automation-march2017\Costco\target\surefire-reports\html
-May 27, 2017 11:41:51 AM com.relevantcodes.extentreports.ExtentReports loadConfig
+May 28, 2017 12:59:20 AM com.relevantcodes.extentreports.ExtentReports loadConfig
 WARNING: Unable to perform report configuration. The file C:\Users\Zahera\IdeaProjects4\automation-march2017\Costco\report-config.xml was not found.
-May 27, 2017 11:42:01 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 28, 2017 12:59:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>
 Launch local browser Instance
@@ -13,7 +13,7 @@ HomePage: click On Appliance Selection
 Appliances
 Samsung
 It has been called
-May 27, 2017 11:42:23 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 28, 2017 12:59:55 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>
 Launch local browser Instance
@@ -24,7 +24,7 @@ HomePage: get Selection Menu Web Element
 HomePage: click On Appliance Selection
 Appliances
 It has been called
-May 27, 2017 11:42:48 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 28, 2017 1:00:18 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>
 Launch local browser Instance
@@ -35,7 +35,7 @@ HomePage: get Selection Menu Web Element
 HomePage: click On Computers Selection
 Computers
 It has been called
-May 27, 2017 11:43:14 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 28, 2017 1:00:39 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>
 Launch local browser Instance
@@ -47,7 +47,7 @@ HomePage: click On Electronics Selection
 Electronics
 Filter Results
 It has been called
-May 27, 2017 11:43:38 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 28, 2017 1:01:04 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>
 Launch local browser Instance
@@ -58,7 +58,7 @@ HomePage: get Selection Menu Web Element
 HomePage: click On Electronics Selection
 Electronics
 It has been called
-May 27, 2017 11:44:04 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 28, 2017 1:01:29 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>
 Launch local browser Instance
@@ -70,7 +70,7 @@ HomePage: click On Furniture Selection
 Furniture & Mattresses
 Culver City
 It has been called
-May 27, 2017 11:44:27 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 28, 2017 1:01:53 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>
 Launch local browser Instance
@@ -81,7 +81,7 @@ HomePage: get Selection Menu Web Element
 HomePage: click On Furniture Selection
 Furniture & Mattresses
 It has been called
-May 27, 2017 11:44:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 28, 2017 1:02:17 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>
 Launch local browser Instance
@@ -92,7 +92,7 @@ HomePage: get Selection Menu Web Element
 HomePage: click On Furniture Selection
 Furniture & Mattresses
 It has been called
-May 27, 2017 11:45:11 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 28, 2017 1:02:41 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>
 Launch local browser Instance
@@ -103,7 +103,7 @@ HomePage: get Selection Menu Web Element
 HomePage: click On Appliance Selection
 Appliances
 Samsung
-May 27, 2017 11:45:17 AM com.relevantcodes.extentreports.Report flush
+May 28, 2017 1:02:50 AM com.relevantcodes.extentreports.Report flush
 SEVERE: Stream closed
 java.io.IOException: Unable to write source: Stream closed.
 	at com.relevantcodes.extentreports.Report.flush(Report.java:446)
@@ -133,7 +133,7 @@ java.io.IOException: Unable to write source: Stream closed.
 	at java.lang.Thread.run(Thread.java:745)
 
 It has been called
-May 27, 2017 11:45:36 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 28, 2017 1:03:11 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>
 Launch local browser Instance
@@ -143,7 +143,7 @@ HomePage: click On Selection Menu
 HomePage: get Selection Menu Web Element
 HomePage: click On Appliance Selection
 Appliances
-May 27, 2017 11:45:43 AM com.relevantcodes.extentreports.Report flush
+May 28, 2017 1:03:23 AM com.relevantcodes.extentreports.Report flush
 SEVERE: Stream closed
 java.io.IOException: Unable to write source: Stream closed.
 	at com.relevantcodes.extentreports.Report.flush(Report.java:446)
@@ -173,7 +173,7 @@ java.io.IOException: Unable to write source: Stream closed.
 	at java.lang.Thread.run(Thread.java:745)
 
 It has been called
-May 27, 2017 11:46:03 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 28, 2017 1:03:45 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>
 Launch local browser Instance
@@ -183,7 +183,7 @@ HomePage: click On Selection Menu
 HomePage: get Selection Menu Web Element
 HomePage: click On Computers Selection
 Computers
-May 27, 2017 11:46:09 AM com.relevantcodes.extentreports.Report flush
+May 28, 2017 1:03:50 AM com.relevantcodes.extentreports.Report flush
 SEVERE: Stream closed
 java.io.IOException: Unable to write source: Stream closed.
 	at com.relevantcodes.extentreports.Report.flush(Report.java:446)
@@ -213,7 +213,7 @@ java.io.IOException: Unable to write source: Stream closed.
 	at java.lang.Thread.run(Thread.java:745)
 
 It has been called
-May 27, 2017 11:47:37 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 28, 2017 1:04:09 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>
 Launch local browser Instance
@@ -224,7 +224,7 @@ HomePage: get Selection Menu Web Element
 HomePage: click On Electronics Selection
 Electronics
 Filter Results
-May 27, 2017 11:47:43 AM com.relevantcodes.extentreports.Report flush
+May 28, 2017 1:04:19 AM com.relevantcodes.extentreports.Report flush
 SEVERE: Stream closed
 java.io.IOException: Unable to write source: Stream closed.
 	at com.relevantcodes.extentreports.Report.flush(Report.java:446)
@@ -254,7 +254,7 @@ java.io.IOException: Unable to write source: Stream closed.
 	at java.lang.Thread.run(Thread.java:745)
 
 It has been called
-May 27, 2017 11:48:03 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 28, 2017 1:04:37 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>
 Launch local browser Instance
@@ -264,7 +264,7 @@ HomePage: click On Selection Menu
 HomePage: get Selection Menu Web Element
 HomePage: click On Electronics Selection
 Electronics
-May 27, 2017 11:48:09 AM com.relevantcodes.extentreports.Report flush
+May 28, 2017 1:04:43 AM com.relevantcodes.extentreports.Report flush
 SEVERE: Stream closed
 java.io.IOException: Unable to write source: Stream closed.
 	at com.relevantcodes.extentreports.Report.flush(Report.java:446)
@@ -294,7 +294,7 @@ java.io.IOException: Unable to write source: Stream closed.
 	at java.lang.Thread.run(Thread.java:745)
 
 It has been called
-May 27, 2017 11:48:27 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 28, 2017 1:05:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>
 Launch local browser Instance
@@ -305,7 +305,7 @@ HomePage: get Selection Menu Web Element
 HomePage: click On Furniture Selection
 Furniture & Mattresses
 Culver City
-May 27, 2017 11:48:35 AM com.relevantcodes.extentreports.Report flush
+May 28, 2017 1:05:09 AM com.relevantcodes.extentreports.Report flush
 SEVERE: Stream closed
 java.io.IOException: Unable to write source: Stream closed.
 	at com.relevantcodes.extentreports.Report.flush(Report.java:446)
@@ -335,7 +335,7 @@ java.io.IOException: Unable to write source: Stream closed.
 	at java.lang.Thread.run(Thread.java:745)
 
 It has been called
-May 27, 2017 11:48:55 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 28, 2017 1:06:39 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>
 Launch local browser Instance
@@ -345,7 +345,7 @@ HomePage: click On Selection Menu
 HomePage: get Selection Menu Web Element
 HomePage: click On Furniture Selection
 Furniture & Mattresses
-May 27, 2017 11:49:01 AM com.relevantcodes.extentreports.Report flush
+May 28, 2017 1:06:44 AM com.relevantcodes.extentreports.Report flush
 SEVERE: Stream closed
 java.io.IOException: Unable to write source: Stream closed.
 	at com.relevantcodes.extentreports.Report.flush(Report.java:446)
@@ -375,7 +375,7 @@ java.io.IOException: Unable to write source: Stream closed.
 	at java.lang.Thread.run(Thread.java:745)
 
 It has been called
-May 27, 2017 11:49:19 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 28, 2017 1:07:03 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>
 Launch local browser Instance
@@ -385,7 +385,7 @@ HomePage: click On Selection Menu
 HomePage: get Selection Menu Web Element
 HomePage: click On Furniture Selection
 Furniture & Mattresses
-May 27, 2017 11:49:26 AM com.relevantcodes.extentreports.Report flush
+May 28, 2017 1:07:11 AM com.relevantcodes.extentreports.Report flush
 SEVERE: Stream closed
 java.io.IOException: Unable to write source: Stream closed.
 	at com.relevantcodes.extentreports.Report.flush(Report.java:446)
@@ -415,7 +415,7 @@ java.io.IOException: Unable to write source: Stream closed.
 	at java.lang.Thread.run(Thread.java:745)
 
 It has been called
-May 27, 2017 11:49:42 AM com.relevantcodes.extentreports.Report flush
+May 28, 2017 1:07:21 AM com.relevantcodes.extentreports.Report flush
 SEVERE: Stream closed
 java.io.IOException: Unable to write source: Stream closed.
 	at com.relevantcodes.extentreports.Report.flush(Report.java:446)

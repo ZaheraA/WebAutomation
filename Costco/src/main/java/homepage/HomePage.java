@@ -42,7 +42,6 @@ public class HomePage extends CommonAPI {
         TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         getSelectionMenuWebElement().click();
     }
-    //-----------------------------------------------------------------------------
 
     //-----------------------Electronics-------------------------------------------//
     public WebElement getSelectionMenuElectronics() {
@@ -59,7 +58,6 @@ public class HomePage extends CommonAPI {
         clickOnSelectionMenu();
         clickOnElectronicsSelection();
     }
-    //----------------------------------------------------------------------------------------------------
 
     //-------------------------------Computers----------------------------------------------------------------/
     public WebElement getSelectionMenuComputers() {
@@ -76,7 +74,6 @@ public class HomePage extends CommonAPI {
         clickOnSelectionMenu();
         clickOnComputersSelection();
     }
-    //-------------------------------------------------------------------------------------------------------------
 
 
     //-------------------------------Appliances----------------------------------------------------------------/
@@ -94,7 +91,6 @@ public class HomePage extends CommonAPI {
         clickOnSelectionMenu();
         clickOnApplianceSelection();
     }
-    //-------------------------------------------------------------------------------------------------------------
 
     //-------------------------------Furniture----------------------------------------------------------------/
     public WebElement getSelectionMenuFurniture() {
@@ -111,10 +107,6 @@ public class HomePage extends CommonAPI {
         clickOnSelectionMenu();
         clickOnFurnitureSelection();
     }
-    //-------------------------------------------------------------------------------------------------------------
-
-
-
 
 }
 
